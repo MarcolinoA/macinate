@@ -1,0 +1,30 @@
+.food-menu-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.classic-menu,
+.tapas-menu {
+  background-color: #ffe6a7;
+  color: #443627;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 875px) and (min-width: 425px) {
+  .food-menu-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 424px) and (min-width: 360px) {
+  .food-menu-container {
+    flex-direction: column;
+  }
+  
+  .classic-menu,
+  .tapas-menu {
+    margin: 10px 0px;
+  }
+}

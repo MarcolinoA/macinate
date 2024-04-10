@@ -1,0 +1,12 @@
+.hours-location-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 10px;
+}
+
+.hours-location-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

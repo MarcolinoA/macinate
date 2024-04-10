@@ -1,0 +1,12 @@
+.happenings-page-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 10px;
+}
+
+.happenings-page-description-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

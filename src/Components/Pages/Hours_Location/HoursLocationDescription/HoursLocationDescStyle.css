@@ -1,0 +1,73 @@
+.hours-location-desc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  width: 650px;
+  margin-bottom: 50px;
+}
+
+.hours-location-desc-divisor {
+  display: flex;
+  flex-direction: row;
+}
+
+.divisor-item {
+  margin: 0 20px;
+  color: #ffe6a7;
+}
+
+.hours-location-desc-title {
+  font-size: 60px;
+}
+
+.hours-location-links {
+  margin-top: 20px;
+}
+
+.maps-link {
+  margin-bottom: 10px;
+}
+
+.a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.hours-info {
+  font-size: 24px;
+}
+
+.hours-icontent,
+.location-description {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 875px) and (min-width: 425px) {
+  .hours-location-desc-title {
+    font-size: 50px;
+  }
+
+  .hours-location-desc-container {
+    margin-bottom: 0;
+    padding: 0px;
+    width: 400px;
+    margin: 0 15px 10px 15px;
+  }
+}
+
+@media screen and (max-width: 424px) and (min-width: 360px) {
+  .hours-location-desc-title {
+    font-size: 50px;
+  }
+
+  .hours-location-desc-container {
+    margin-bottom: 0;
+    padding: 0px;
+    width: 400px;
+    margin: 0 15px 10px 15px;
+  }
+}

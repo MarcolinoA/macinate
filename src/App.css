@@ -1,0 +1,28 @@
+/*#9a8873
+#e1bb80
+#C6Ab80
+#ffe6a7
+#443627
+#5e503f
+#A3795B
+*/
+body {
+  background-color: #A3795B;
+  color: #fff;
+}
+.App {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  display: grid;
+  height: 100vh;
+}
+
+

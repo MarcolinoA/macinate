@@ -1,0 +1,12 @@
+.menu-page-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 10px;
+}
+
+@media screen and (max-width: 875px) and (min-width: 425px) {
+  .menu-page-gallery {
+    margin: 20px 10px;
+  }
+}
