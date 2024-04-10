@@ -26,7 +26,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #443627;
   text-decoration: none;
   margin: 30px;
   border-bottom: 3px solid transparent;
@@ -47,7 +47,7 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: #fff;
+  background: #443627;
 }
 
 .nav-icon {
@@ -55,7 +55,7 @@
 }
 
 .menu-icon {
-  color: #fff;
+  color: #443627;
 }
 
 @media screen and (max-width: 900px) {
@@ -83,7 +83,7 @@
 
   .nav-menu.active {
     display: ruby;
-    background-color: #A3795B;
+    background-color: #F8FAE5;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
@@ -93,7 +93,7 @@
   }
 
   .nav-item.active {
-    color: white;
+    color: #443627;
     border: none;
   }
 

@@ -16,7 +16,7 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink
             activeclassname="active"
-            to="/"
+            to="/macinate"
             onClick={handleClick}
             className="nav-links home-link"
           >

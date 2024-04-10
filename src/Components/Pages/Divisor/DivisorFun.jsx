@@ -1,6 +1,7 @@
 import React from 'react'
 import DivisorIcon from "./DivisorIcon";
 import ScreenSizeTracker from '../../SizeTracker/ScreenSizeTracker';
+import "./DivisorStyle.css";
 
 
 const DivisorFun = () => {
@@ -13,7 +14,7 @@ const DivisorFun = () => {
     <div className="hours-location-desc-divisor">
       {divisors.map((_, idx) => (
         <div className="divisor-item" key={idx}>
-          <DivisorIcon />
+          <DivisorIcon className="divisor"/>
         </div>
       ))}
     </div>

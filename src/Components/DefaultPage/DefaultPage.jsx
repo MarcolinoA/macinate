@@ -1,4 +1,3 @@
-import "./App.css";
 import Happenings from "./Happenings/Happenings";
 import Home from "./Home/Home";
 import Menu from "./Menu/Menu";

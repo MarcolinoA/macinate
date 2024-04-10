@@ -1,5 +1,5 @@
 import React from "react";
-import prova_img from "./provamenu.jpg";
+import prova_img from "./lasagna.jpg";
 import "./MenuStyle.css";
 import TapasIcon from "./Icons/TapasIcon";
 import BreadIcon from "./Icons/BreadIcon";

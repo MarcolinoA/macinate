@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import img_prova_happenings from "./img_prova.jpg";
+import img_prova_happenings from "./happen1.jpg";
 import PartyIcon from "./Icons/PartyIcon";
 import Arrow from "../Icons/ArrowDown.gif";
 import ScreenSizeTracker from "../../SizeTracker/ScreenSizeTracker";

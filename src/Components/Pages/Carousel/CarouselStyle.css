@@ -8,7 +8,7 @@
 }
 
 .slide {
-  border-radius: 0.5rem;
+  border-radius: 40px;
   width: 100%;
   height: 100%;
 }
@@ -30,11 +30,11 @@
 }
 
 .arrow-left {
-  left: 1rem;
+  left: 1.2rem;
 }
 
 .arrow-right {
-  right: 1rem;
+  right: 1.2rem;
 }
 
 .indicators {
@@ -50,7 +50,6 @@
   border-radius: 100%;
   border: none;
   outline: none;
-  box-shadow: 0px 0px 5px #555;
   margin: 0 0.2rem;
   cursor: pointer;
 }
@@ -66,7 +65,6 @@
   }
 
   .slide {
-    border-radius: 0.5rem;
     width: 90%;
     height: 100%;
   }
@@ -79,7 +77,6 @@
   }
 
   .slide {
-    border-radius: 0.5rem;
     width: 90%;
     height: 100%;
   }
