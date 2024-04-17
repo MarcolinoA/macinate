@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import Happenings from "./Happenings/Happenings";
 import Home from "./Home/Home";
 import Menu from "./Menu/Menu";
@@ -14,6 +15,7 @@ const DefaultPage = () => {
       <section id="happenings">
         <Happenings />
       </section>
+      <Footer />
     </div>
   );
 };

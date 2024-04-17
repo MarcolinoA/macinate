@@ -1,0 +1,124 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--footer_background);
+  color: var(--footer_color);
+  padding: 40px 80px;
+}
+
+.first-section,
+.second-section,
+.third-section {
+  flex: 1;
+  height: 250px;
+  justify-content: center;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.desc {
+  font-size: 18px;
+}
+
+/*Browse section*/
+.browse {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.browse-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.browse-item {
+  margin: 15px 0;
+}
+
+.browse-link {
+  text-decoration: none;
+  color: var(--footer_color);
+}
+
+/*Contact section*/
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  justify-content: left;
+  align-items: center;
+}
+ 
+hr {
+  width: 60%;
+  border-color: var(--hr_color);
+}
+
+.maps-field,
+.phone-field,
+.email-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.address,
+.maps-link,
+.phone-link,
+.email-link {
+  font-size: 18px;
+}
+
+.a {
+  text-decoration: none;
+  color: var(--footer_color);
+}
+
+@media screen and (max-width: 875px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .first-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company-info,
+  .company-info.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 395px;
+  }
+
+  .contact {
+    align-items: center;
+    justify-content: center;
+  }
+
+  hr {
+    width: 100%;
+  }
+}
