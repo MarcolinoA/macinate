@@ -1,4 +1,5 @@
 .menu-container {
+  margin: 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +11,6 @@
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 700px;
 }
 
 .image-menu-container {
@@ -115,7 +115,9 @@
 
 @media screen and (max-width: 1299px) and (min-width: 1050px) {
   .menu-container {
-    margin-top: 20px;
+    margin: 0;
+    height: 100dvh;
+    justify-content: center;
   }
 
   .menu-content {
@@ -151,15 +153,13 @@
   .menu-footer-icon {
     margin-left: 60px;
   }
-
-  .arrow-gif {
-    margin-top: -20px;
-  }
 }
 
 @media screen and (max-width: 1049px) and (min-width: 876px) {
   .menu-container {
-    margin-top: 10px;
+    margin: 0;
+    height: 100dvh;
+    justify-content: center;
   }
 
   .menu-content {
@@ -205,7 +205,6 @@
 
 @media screen and (max-width: 875px) and (min-width: 425px) {
   .menu-container {
-    margin-top: 10px;
     justify-content: center;
   }
 

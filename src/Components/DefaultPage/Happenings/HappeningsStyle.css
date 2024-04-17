@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 0px;
+  margin: 0;
+  height: 100dvh;
+  justify-content: center;
 }
 
 .happenings-content {
@@ -11,7 +13,6 @@
   justify-content: center;
   align-items: center;
   padding: 30px;
-  height: 700px;
 }
 
 
@@ -24,6 +25,7 @@
 }
 
 .description-happenings-container {
+  margin-top: 20px;
   margin-right: 50px;
   width: 600px;
   height: 550px;
@@ -87,8 +89,14 @@
 }
 
 @media screen and (max-width: 1449px) and (min-width: 1300px) {
+  .happenings-container {
+    margin: 0;
+    height: 100dvh;
+    justify-content: center;
+  }
+
   .happenings-content {
-    padding: 30px 0;
+    padding: 0;
   }
 
   .image-happenings-container {
@@ -110,7 +118,9 @@
 
 @media screen and (max-width: 1299px) and (min-width: 1050px) {
   .happenings-container {
-    margin-top: 20px;
+    margin: 0;
+    height: 100dvh;
+    justify-content: center;
   }
 
   .image-happenings-container {
@@ -129,9 +139,20 @@
     font-size: 32px;
     margin: 0;
   }
+
+  .bn15 {
+    width: 200px;
+    padding: 10px 20px;
+  }
 }
 
 @media screen and (max-width: 1049px) and (min-width: 876px) {
+  .happenings-container {
+    margin: 0;
+    height: 100dvh;
+    justify-content: center;
+  }
+
   .image-happenings-container {
     width: 400px;
     height: 565px;
@@ -156,12 +177,16 @@
   .description-happenings-content {
     font-size: 17px;
   }
+
+  .bn15 {
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 875px) and (min-width: 425px) {
   .happenings-container {
-    margin-top: 10px;
     justify-content: center;
+    margin: 50px 0;
   }
 
   .happenings-content {
@@ -212,6 +237,7 @@
 @media screen and (max-width: 424px) and (min-width: 360px) {
   .happenings-container {
     justify-content: center;
+    margin: 50px 0;
   }
 
   .happenings-content {
